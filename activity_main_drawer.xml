@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_open_with_24dp"
+            android:title="Overview" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_public_24dp"
+            android:title="Geography" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_group_24dp"
+            android:title="Population" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_now_widgets_24dp"
+            android:title="History" />
+        <item
+            android:id="@+id/nav_politics"
+            android:icon="@drawable/ic_local_parking_24dp"
+            android:title="Politics" />
+        <item
+            android:id="@+id/nav_holidays"
+            android:icon="@drawable/ic_keyboard_24dp"
+            android:title="Important Dates " />
+    </group>
+
+    <item android:title="Education">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_school_24dp"
+                android:title="Universities" />
+        </menu>
+    </item>
+    <item android:title="Tourism">
+        <menu>
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_account_balance_24dp"
+                android:title="Historical Place" />
+            <item
+                android:id="@+id/nav_send2"
+                android:icon="@drawable/ic_photo_album_24dp"
+                android:title="Natural Beauty" />
+            <item
+                android:id="@+id/nav_send3"
+                android:icon="@drawable/ic_terrain_24dp"
+                android:title="Other Places" />
+            <item
+                android:id="@+id/nav_send4"
+                android:icon="@drawable/ic_hotel_24dp"
+                android:title="Hotel and Resorts" />
+        </menu>
+    </item>
+    <item android:title="Festivals">
+        <menu>
+            <item
+                android:id="@+id/nav_fest1"
+                android:icon="@drawable/ic_insert_invitation_24dp"
+                android:title="National Festivals" />
+            <item
+                android:id="@+id/nav_fest2"
+                android:icon="@drawable/ic_wallet_giftcard_24dp"
+                android:title="Religious Festivals" />
+            <item
+                android:id="@+id/nav_fest3"
+                android:icon="@drawable/ic_mood_24dp"
+                android:title="Other Festivals" />
+        </menu>
+    </item>
+    <item android:title="Culture and Arts">
+        <menu>
+            <item
+                android:id="@+id/nav_culture1"
+                android:icon="@drawable/ic_mode_edit_24dp"
+                android:title="Poets and Writers" />
+            <item
+                android:id="@+id/nav_culture2"
+                android:icon="@drawable/ic_color_lens_24dp"
+                android:title="Artists" />
+            <item
+                android:id="@+id/nav_culture3"
+                android:icon="@drawable/ic_mic_24dp"
+                android:title="Singers" />
+            <item
+                android:id="@+id/nav_culture4"
+                android:icon="@drawable/ic_recent_actors_24dp"
+                android:title="Actors and Actress" />
+            <item
+                android:id="@+id/nav_culture5"
+                android:icon="@drawable/ic_camera_roll_24dp"
+                android:title="Movies" />
+        </menu>
+    </item>
+    <item android:title="Game and Sports">
+        <menu>
+            <item
+                android:id="@+id/nav_game1"
+                android:icon="@drawable/ic_directions_bike_24dp"
+                android:title="Games and Sports" />
+            <item
+                android:id="@+id/nav_game2"
+                android:icon="@drawable/ic_account_box_24dp"
+                android:title="Sports Icons"/>
+        </menu>
+    </item>
+    <item android:title="Science">
+        <menu>
+            <item
+                android:id="@+id/nav_science1"
+                android:icon="@drawable/ic_wb_incandescent_24dp"
+                android:title="Institutions" />
+            <item
+                android:id="@+id/nav_science2"
+                android:icon="@drawable/ic_nature_people_24dp"
+                android:title="Scientists"/>
+        </menu>
+    </item>
+
+</menu>
